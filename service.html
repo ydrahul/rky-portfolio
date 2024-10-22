@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header a{
+            text-decoration: none;
+            color: #f4f4f4;
+            font-size: 20px;
+        }
+        .services {
+            display: flex;
+            font-size: 20px;
+            justify-content: space-around;
+            margin: 0px;
+            padding: 20px;
+           
+            background-color: #460e0e;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .service-item {
+            flex: 1;
+            margin: 8px;
+            padding: 20px;
+            background-color: #fafafa;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .service-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            background-color: rgb(78, 162, 103);
+        }
+        .service-item h1 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .service-item p {
+            font-size: 22px;
+            line-height: 1.5;
+            font-weight: bold;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+ <!--SERVICES-->
+<header>
+   <a href="index.html">Home</a> 
+</header>
+
+<section class="services">
+    <div class="service-item">
+        <h1>UI Design<h1>
+        <p>We create intuitive and beautiful user interfaces that enhance user experience and engage your audience effectively.</p>
+    </div>
+    <div class="service-item">
+        <h1>App Design</h1>
+        <p>Our app designs are crafted to provide seamless experiences across all devices, ensuring your app stands out.</p>
+    </div>
+    <div class="service-item">
+        <h1>Web Design</h1>
+        <p>We design responsive and visually appealing websites that communicate your brand and captivate visitors.</p>
+    </div>
+</section>
+
+</body>
+</html>

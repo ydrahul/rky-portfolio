@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Design Page</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=loto:ital,wght@1,400;1,700&family=pacificc");
+        
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            background-color: red;
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 20px;
+            
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            width: 100%;
+        }
+
+        article,
+        aside {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            flex-basis: 45%;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .article{
+            margin: 50px;
+            padding: 20px;
+            font-size: 20px;
+            background-color: rgb(173, 202, 169);
+            border-radius: 10px; 
+        }
+        .article h2{
+            text-align: center;
+            font-size: 50px;
+        }
+        .aside{
+            margin: 50px;
+            padding: 20px;
+            font-size: 20px;
+            background-color: rgb(161, 185, 158);
+            border-radius: 10px;
+        }
+        .aside h2{
+            text-align: center;
+            font-size: 50px;
+        }
+        .webdesign{
+            margin: 50px 0;
+            text-align: center;
+        }
+        .webdesign img {
+            max-width: 300px;
+            max-height: 400px;
+            border-radius: 8px;
+            margin: 20px;
+            shape-outside: 20px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav class="home">
+        <a href="index.html">Home</a>
+
+    </nav>
+
+    <section>
+        <article class="article">
+            <h2>Main Content</h2>
+            <p>This is where the main content of the page will go. You can add text, images, or anything else you need. I focus on creating visually stunning, user-friendly, and fully responsive websites tailored to each client's unique brand identity and needs. Whether you're looking to establish an online presence or enhance an existing site
+            </p>
+        </article>
+        <aside class="aside">
+            <h2>Sidebar</h2>
+            <p>This is the sidebar where you can add extra information, links, or advertisements.<br>
+                In web design, a sidebar is an essential layout component used to enhance navigation, provide additional
+                content, or display advertisements. Positioned to the left or right of the main content area, sidebars
+                often contain menus, links, or widgets that offer users easy access to other parts of the site. They
+                improve user experience by keeping important elements visible as users scroll through content.
+                Responsive design ensures that sidebars adapt well to different screen sizes, often collapsing into a
+                drawer or menu on mobile devices, making them versatile in both desktop and mobile layouts.</p>
+        </aside>
+    </section>
+    <div class="webdesign">
+        <h1>Web Design</h1>
+        <img src="images/webdesign1.png" alt="Logo">
+        <img src="images/webdesign2.png" alt="Logo">
+        <img src="images/webdesign3.png" alt="Logo">
+
+    </div>
+</body>
+
+</html>
