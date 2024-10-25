@@ -329,10 +329,14 @@ nav ul li a:hover::after {
 
 .contact-left p {
     margin-top: 30px;
+    text-decoration: none;
+}
+.contact-left p i, a {
+    margin-top: 30px;
+    text-decoration: none;   
 }
 
 .contact-right p i {
-    color: #ff004f;
     margin-right: 15px;
     font-size: 25px;
 }
